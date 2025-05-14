@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Charity DApp</title>
+</head>
+<body>
+  <h1>🎗️ Charity Donation DApp</h1>
+
+  <p><strong>Собрано средств:</strong> <span id="balance">...</span> ETH</p>
+
+  <input type="number" id="amount" placeholder="Введите сумму (ETH)" />
+  <button onclick="donate()">Пожертвовать</button>
+
+  <br/><br/>
+  <button onclick="getBalance()">Обновить баланс</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
